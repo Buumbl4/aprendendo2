@@ -4,7 +4,7 @@
 // let paragrafo=document.querySelector('p');
 // paragrafo.innerHTML= 'Escolha um número entre 1 e 100';
 let listaNumeroSorteado = [];
-let numeroMaximo = 100;
+let numeroMaximo = 50;
 let numeroSecreto = gerarNumeroSecreto();
 let tentativa = 1;
 
@@ -16,7 +16,7 @@ function exibirTextonaTela (tag, texto){
 
 function exibirMensagemInicial (){
     exibirTextonaTela ('h1', "Jogo do Número Secreto");
-    exibirTextonaTela ('p', 'Escolha um número entre 1 e 100');
+    exibirTextonaTela ('p', 'Escolha um número entre 1 e 50');
 }
 
 exibirMensagemInicial();
